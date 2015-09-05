@@ -46,15 +46,9 @@ class Solution:
             self.trace_child(r_node, res, path)
             
             
-#    def get_children(self, node):
-#        children = []
-#        if node.left is not None:
-#            children.append(node.lef)
-#        if node.right is not None:
-#            children.append(node.right)
-#        return children
+#    def get_children(self, node):`
         
-if __name__ == '__main__':
+if __name__ == '__main__': 
     t1 = TreeNode(1) 
     t2 = TreeNode(2) 
 #    t3 = TreeNode(3) 
