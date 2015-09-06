@@ -1,0 +1,18 @@
+[
+    {
+        "command": "python \/tmp\/AgentIteratorWatcher\/watcher.py",
+        "commandargs": "",
+        "description": "This script package install a python zookeeper client named kazoo, and start a wacher to listen the RIT agent number",
+        "execmode": 0,
+        "filename": ".zip",
+        "keys": [
+        ],
+        "location": "/tmp/AgentIteratorWatcher",
+        "log": "/tmp/AgentIteratorWatcher/AgentIteratorWatcher.out",
+        "ostype": "linux/unix",
+        "timeout": 0,
+        "name": "AgentIteratorWatcher",
+        "version": "1.0.0",
+        "type": "APPLICATION"
+    }
+]

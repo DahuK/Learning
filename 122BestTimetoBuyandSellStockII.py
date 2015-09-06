@@ -24,7 +24,9 @@ class Solution(object):
         
 if __name__ == '__main__':
     test = [3,3,5,0,0,3,1,4]
-
+    
+    for i in xrange(5):
+        print i
     s = Solution()
     print s.maxProfit(test)
     
