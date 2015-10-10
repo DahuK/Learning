@@ -35,6 +35,7 @@ class Solution(object):
         
 if __name__ == '__main__':
     nums = [1,1,0,2,1,0]
+    print nums.count(1)
     s = Solution()
     s.sortColors(nums)
     print nums
