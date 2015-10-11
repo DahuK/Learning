@@ -28,6 +28,11 @@ class Solution:
         return res * sign
          
 if __name__ == '__main__':
+    gg = 'asdasd'
+    print gg[1]
+    ff = "dog cat cat dog"
+    print ff.split()
+    
     dividend = 16
     divisor = 3
    # print ( (dividend < 0) != (divisor < 0) )
