@@ -6,6 +6,7 @@ Design an algorithm to find the maximum profit. You may complete at most two tra
 Note:
 You may not engage in multiple transactions at the same time (ie, you must sell the stock before you buy again).
 '''
+import string
 
 class Solution(object):
     def maxProfit(self, prices):
@@ -36,6 +37,9 @@ class Solution(object):
         return sum_profix
         
 if __name__ == '__main__':
+    for char in string.lowercase:
+        print char
+    
     test = [3,3,5,0,0,3,1,4]
     #test = [1,2]
     s = Solution()
