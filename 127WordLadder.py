@@ -49,6 +49,9 @@ class Solution(object):
                                  
         
 if __name__ == '__main__':
+    tt = ['a','b','v']
+    print tt.pop(0)
+    
     beginWord = "hit"
     endWord = "cog"
     wordList = ["hot","dot","dog","lot","log"]
