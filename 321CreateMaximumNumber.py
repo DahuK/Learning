@@ -97,7 +97,8 @@ class Solution(object):
                 self.findingMax(res, nums1, nums2[index_num2 + 1:], left, max_nums)
                 
 if __name__ == '__main__':
-    
+    for i in xrange(1,5):
+        print i
     def merge(a, b):
         return [max(a, b).pop(0) for _ in a+b]
     
