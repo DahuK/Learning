@@ -43,6 +43,11 @@ class Solution(object):
             
 if __name__ == '__main__':
     
+    ff = [1,4,6,7]
+    for i in xrange(len(ff)):
+        print ff.pop()
+    print ff
+    
     test = [1, 5, 1, 1, 6, 4]
 #    test = [1, 3, 2, 2, 3, 1]
     s = Solution()
