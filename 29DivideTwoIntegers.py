@@ -28,8 +28,9 @@ class Solution:
         return res * sign
          
 if __name__ == '__main__':
-    gg = 'asdasd'
-    print gg[1]
+    gg = [1,3,4,5]
+    for g in gg[2:]:
+        print g
     ff = "dog cat cat dog"
     print ff.split()
     
