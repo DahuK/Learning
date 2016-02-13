@@ -61,6 +61,10 @@ class Solution(object):
 #        return res
         
 if __name__ == '__main__':
+    tt = ['a', 'b', 'c']
+    tt.pop()
+    print tt[-1]
+    print "".join(tt)
     s = Solution()
     words = ["abcw", "baz", "foo", "bar", "xtfn", "abcdef"]
 #    words = ["a", "aa", "aaa", "aaaa"]
